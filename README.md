@@ -2,3 +2,11 @@
 ![diplo github photo](https://user-images.githubusercontent.com/87501964/173658948-48b4708e-0fdd-4d16-af2c-ec1d9d1bc37b.PNG)
 
 # [diplomacy-guide](https://www.diplomacyguide.com)
+
+A strategy guide for the board game Diplomacy. 
+
+## Features
+* Navigate through the Diplomacy app and learn how to play or discover new strategies
+* Use the SVG map to render and visualize different openings  
+* Discover articles and videos the Diplomacy community has created
+* Is mobile and desktop friendly

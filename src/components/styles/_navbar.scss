@@ -1,0 +1,124 @@
+@import "responsiveDesign";
+
+.navBar {
+    background-color: $backgroundLeft;
+    z-index: 2;
+    
+    h1 {
+      font-weight: 300;
+      color: $font;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+
+      @include mobile {
+        font-size: 25px;
+      }
+
+      @include little-mobile {
+        font-size: 18px;
+      }
+
+      #icon {
+        width: 50px;
+        vertical-align: middle;
+        margin-right: 10px; 
+        
+        @include mobile {
+          width: 35px;
+        }
+
+        @include little-mobile {
+          width: 25px;
+        }
+      }
+    }
+
+  .link {
+    color: white;
+    display: inline-block;
+    position: relative;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 5px;
+      left: 0px;
+      background-color: white;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+    
+    &:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+  }
+  
+  .countries > * {
+    margin: 0px 18px 5px 18px;
+
+    @include medium-three {
+      margin: 0px 8px 2px 8px;
+    }
+    @include medium-two {
+      margin: 0px 2px 2px 2px;
+    }
+    @include medium {
+      margin: 0px 14px 2px 14px;
+    }
+    @include mobile {
+      margin: 0px 2px 2px 2px;
+    }
+  }
+  .countries {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    @include medium {
+      
+      margin: -10px -10px 0px -10px;
+    }
+
+    .active h2{
+      color: $font;
+      border: 2px solid #fff;
+    }
+
+      h2 {
+        font-weight: 300;
+        font-size: 15px;
+        padding: 6px;
+        border-radius: 20px;
+        background-color: $backgroundRight;
+        color: $font2;
+        border: 2px solid transparent;
+        transition: 0.1s ease-in-out;
+
+        &:hover {
+          color: $font;
+          border: 2px solid white;
+        }
+
+        @include mobile {
+          margin: 10px 4px 4px 4px;
+          font-size: 13px;
+          padding: 4px;
+        }
+        @include little-mobile {
+          margin: 10px 1px 4px 1px;
+          font-size: 10px;
+          padding: 4px;
+        }
+      }
+  }
+}  
+
+

@@ -1,0 +1,94 @@
+@import "responsiveDesign";
+
+h3 {
+    font-weight: 300;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+
+    @include little-mobile {
+      margin: 3px 5px 3px 5px;
+      font-size: 20px;
+    }
+}
+
+.basicsQuickLinks > * {
+    margin: -10px 20px -10px 20px;
+
+    @include medium-two {
+      margin: -10px 10px -10px 10px;
+    }
+    @include medium {
+      margin: -10px 20px -10px 20px;
+    }
+    @include mobile {
+      margin: -10px 5px -10px 5px;
+    }
+    @include little-mobile {
+      margin: -10px 1px -10px 1px;
+    }
+}
+
+.basicsQuickLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: -1px;
+  z-index: 2;
+  background-color: $backgroundRight;
+  border-bottom: 2px solid $backgroundLeft;
+  flex-wrap: wrap;
+}
+.author:hover {
+    color: $font;
+}
+
+#winning {
+  scroll-margin-top: 80px;
+
+  @include little-mobile {
+    scroll-margin-top: 60px;
+  }
+  }
+#turns {
+  scroll-margin-top: 80px;
+
+  @include little-mobile {
+    scroll-margin-top: 60px;
+  }
+}
+#units {
+  scroll-margin-top: 80px;
+
+  @include little-mobile {
+    scroll-margin-top: 60px;
+  }
+}
+#moves {
+  scroll-margin-top: 80px;
+
+  @include little-mobile {
+    scroll-margin-top: 60px;
+  }
+}
+#communication {
+  scroll-margin-top: 80px;
+
+  @include little-mobile {
+    scroll-margin-top: 60px;
+  }
+}
+#helpfulResources {
+  scroll-margin-top: 80px;
+
+  @include little-mobile {
+    scroll-margin-top: 60px;
+  }
+}
+
+
+
+    

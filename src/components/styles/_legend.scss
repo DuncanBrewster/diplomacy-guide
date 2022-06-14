@@ -1,0 +1,46 @@
+@import "responsiveDesign";
+
+.legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: black;
+    flex-wrap: wrap;
+
+    @include mobile {
+      font-size: 10px;
+    }
+
+    
+
+    .legendItem {
+      outline: solid 1px;
+      outline-color: black;
+      margin: 5px 2px 3px 2px;
+      padding: 2px;
+      background-color: #fff;
+      display: flex;
+
+      @include mobile {
+        margin: 1px 1px 3px 1px;
+        padding: 1px;
+      }
+    }
+
+    .legendCountry {
+      outline: solid 1px;
+      outline-color: black;
+      margin: 5px 2px 3px 2px;
+      padding: 2px;
+      background-color: #fff;
+      display: flex;
+
+      @include mobile {
+        margin: 1px 1px 3px 1px;
+        padding: 1px;
+      }
+    }
+
+    
+  }

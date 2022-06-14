@@ -1,0 +1,245 @@
+//AUSTRIA
+.austriaMap {
+    
+
+    &:hover {
+    stroke-width: 3px;
+    cursor: pointer;
+    }
+    &:hover .austriaObject {
+    stroke-width: 1px;
+    }
+    &:hover .austriaTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+    }
+}
+
+.active .austriaMap {
+    stroke-width: 3px;
+}
+
+.active .austriaObject {
+    stroke-width: 1px;
+}
+
+.active .austriaTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+}
+
+
+
+//ENGLAND
+.englandMap {
+    
+    &:hover {
+    stroke-width: 3px;
+    cursor: pointer;
+    }
+    &:hover .englandObject {
+    stroke-width: 1px;
+    }
+    &:hover .englandTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+    }
+}
+.active .englandMap {
+    stroke-width: 3px;
+}
+
+.active .englandObject {
+    stroke-width: 1px;
+}
+
+.active .englandTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+}
+//FRANCE
+.franceMap {
+    
+    &:hover {
+    stroke-width: 3px;
+    cursor: pointer;
+    }
+    &:hover .franceObject {
+    stroke-width: 1px;
+    }
+    &:hover .franceTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+    }
+}
+.active .franceMap {
+    stroke-width: 3px;
+}
+
+.active .franceObject {
+    stroke-width: 1px;
+}
+
+.active .franceTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+}
+//GERMANY
+.germanyMap {
+    
+    &:hover {
+    stroke-width: 3px;
+    cursor: pointer;
+    }
+    &:hover .germanyObject {
+    stroke-width: 1px;
+    }
+    &:hover .germanyTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+    }
+}
+.active .germanyMap {
+    stroke-width: 3px;
+}
+
+.active .germanyObject {
+    stroke-width: 1px;
+}
+
+.active .germanyTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+}
+
+//ITALY
+.italyMap {
+    
+    &:hover {
+    stroke-width: 3px;
+    cursor: pointer;
+    }
+    &:hover .italyObject {
+    stroke-width: 1px;
+    }
+    &:hover .italyTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+    }
+}
+.active .italyMap {
+    stroke-width: 3px;
+}
+
+.active .italyObject {
+    stroke-width: 1px;
+}
+
+.active .italyTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+}
+
+//RUSSIA
+
+.russiaMap {
+    
+    &:hover {
+    stroke-width: 3px;
+    cursor: pointer;
+    }
+    &:hover .russiaObject {
+    stroke-width: 1px;
+    }
+    &:hover .russiaTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+    }
+}
+.active .russiaMap {
+    stroke-width: 3px;
+}
+
+.active .russiaObject {
+    stroke-width: 1px;
+}
+
+.active .russiaTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+}
+
+//TURKEY
+
+.turkeyMap {
+    
+    &:hover {
+    stroke-width: 3px;
+    cursor: pointer;
+    }
+    &:hover .turkeyObject {
+    stroke-width: 1px;
+    }
+    &:hover .turkeyTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+    }
+}
+.active .turkeyMap {
+    stroke-width: 3px;
+}
+
+.active .turkeyObject {
+    stroke-width: 1px;
+}
+
+.active .turkeyTitle {
+    stroke-width: 0.5px;
+    stroke: black;
+    fill: black;
+}
+
+//OPENINGS
+
+.active .hold {
+    stroke-width: 2px;
+    stroke: #000;
+  }
+  
+.move {
+    fill: transparent;
+    
+}
+
+.active .move {
+stroke-width: 2px;
+stroke: #000;
+fill: #000;
+}
+
+.support {
+    fill: none;
+}
+
+.active .support {
+    stroke-width: 2px;
+    stroke: #000;
+}
+    
+
+
+
+    

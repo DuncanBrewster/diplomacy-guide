@@ -1,0 +1,165 @@
+@import "responsiveDesign";
+
+
+.flagContainer {
+  // margin: 50px;
+  position: relative;
+}
+
+.flagA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.4);
+  height: 150px;
+  margin-bottom: 50px;
+
+  @include mobile {
+    margin-bottom: 10px;
+    height: 120px;
+    transform: scale(0.35);
+  }
+  @include little-mobile {
+    margin-bottom: 0px;
+    height: 100px;
+    transform: scale(0.3);
+  }
+} 
+
+.flagE {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.4);
+  height: 150px;
+  margin-bottom: 50px;
+
+  @include mobile {
+    margin-bottom: 10px;
+    height: 120px;
+    transform: scale(0.35);
+  }
+  @include little-mobile {
+    margin-bottom: 0px;
+    height: 100px;
+    transform: scale(0.3);
+  }
+}
+
+.flagF {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.32);
+  height: 150px;
+  margin-bottom: 50px;
+
+  @include mobile {
+    margin-bottom: 10px;
+    height: 120px;
+    transform: scale(0.35);
+  }
+  @include little-mobile {
+    margin-bottom: 0px;
+    height: 100px;
+    transform: scale(0.3);
+  }
+}
+
+.flagG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.4);
+  height: 150px;
+  margin-bottom: 50px;
+
+  @include mobile {
+    margin-bottom: 10px;
+    height: 120px;
+    transform: scale(0.35);
+  }
+  @include little-mobile {
+    margin-bottom: 0px;
+    height: 100px;
+    transform: scale(0.3);
+  }
+}
+
+.flagI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.55);
+  height: 150px;
+  margin-bottom: 50px;
+
+  @include mobile {
+    margin-bottom: 10px;
+    height: 120px;
+    transform: scale(0.35);
+  }
+  @include little-mobile {
+    margin-bottom: 0px;
+    height: 100px;
+    transform: scale(0.3);
+  }
+}
+
+.flagR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.32);
+  height: 150px;
+  margin-bottom: 50px;
+
+  @include mobile {
+    margin-bottom: 10px;
+    height: 120px;
+    transform: scale(0.35);
+  }
+  @include little-mobile {
+    margin-bottom: 0px;
+    height: 100px;
+    transform: scale(0.3);
+  }
+}
+
+.flagT {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.32);
+  height: 150px;
+  margin-bottom: 50px;
+
+  @include mobile {
+    margin-bottom: 10px;
+    height: 120px;
+    transform: scale(0.35);
+  }
+  @include little-mobile {
+    margin-bottom: 0px;
+    height: 100px;
+    transform: scale(0.3);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

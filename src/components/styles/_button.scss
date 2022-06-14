@@ -1,0 +1,36 @@
+button{
+    border: none;
+    padding: 10px;
+    background-color: $backgroundLeft;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+button:after {
+    content: '◀';
+    position: absolute;
+    opacity: 0;  
+    top: 10px;
+    left: 20px;
+    transition: 0.5s;
+  }
+
+  button:hover{
+    padding-left: 24px;
+    padding-right: 5px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    left: 12px;
+  }

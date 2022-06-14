@@ -1,0 +1,113 @@
+@import "colors";
+@import "baseMap";
+@import "content";
+@import "button";
+@import "responsiveDesign";
+@import "legend";
+@import "navbar";
+@import "thebasics";
+@import "flags";
+
+
+                                                
+
+.container {
+  color: $font;
+  font-family: 'Verdana', sans-serif;
+  width: 100vw;
+
+  .wrapper {
+    display: flex;
+    z-index: 1;
+    position: relative;
+
+    @include medium {
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    .left {
+      flex: 1;
+      background-color: $backgroundLeft;
+      overflow: scroll;
+      overflow-x: hidden;
+      height: 100vh;
+
+      @include medium{
+        flex: none;
+        height: auto;
+      }
+
+      @include mobile{
+        position: sticky;
+        top: 0;
+        z-index: 2;
+      }
+  
+      .board {
+        padding: 20px 20px 0px 20px;
+
+        @include medium-two {
+          padding: 10px 10px 0px 10px;
+        }
+        @include medium {
+          padding: 0px 0px 0px 0px;
+        }
+      }
+    }
+  
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background-color: $backgroundRight;
+      height: 100vh;
+      overflow: scroll;
+      overflow-x: hidden;
+
+      @include medium{
+        flex: none;
+        height: 80vh;
+      }
+      @include mobile{
+        height: 70vh;
+      }
+      @include little-mobile{
+        height: 60vh;
+      }
+
+      h3 {
+        font-weight: 300;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5px;
+
+        @include mobile {
+          font-size: 25px;
+        }
+        @include little-mobile {
+          font-size: 20px;
+        }
+      }
+      .bodySection {
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 100%;
+      }
+    }
+  }              
+}
+
+
+
+
+
+
+
+
+
+
+
+

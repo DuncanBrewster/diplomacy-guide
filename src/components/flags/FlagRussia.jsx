@@ -4,6 +4,7 @@ const FlagRussia = (props) => (
     <div className="flagR">
         <svg
             xmlns="http://www.w3.org/2000/svg"
+            width={800} height={500}
             viewBox="0 0 9 6"
           
             {...props}

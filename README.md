@@ -8,7 +8,7 @@ A strategy guide for the board game Diplomacy.
 ## Features
 * Navigate through the Diplomacy app and learn how to play or discover new strategies, all in one place
 * Use the SVG map to render and visualize different openings 
-* The SVG map shows the move so you're not stuck trying to visualize what "A Bud S Vie - Gal" looks like
+* * The SVG map shows the opening moves so you're not stuck trying to visualize what "A Bud S Vie - Gal" looks like
 * Discover articles and videos the Diplomacy community has created
 * Uses client-side routing via React-Router
 * Is mobile and desktop friendly

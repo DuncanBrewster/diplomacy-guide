@@ -28,3 +28,9 @@
     }
 }
 
+@mixin large {
+    @media (min-width: 1800px) {
+        @content;
+    }
+}
+

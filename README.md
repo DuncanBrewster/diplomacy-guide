@@ -11,7 +11,7 @@ A strategy guide for the board game Diplomacy.
   * The SVG map shows the opening moves so you're not stuck trying to visualize what "A Bud S Vie - Gal" looks like
 * Discover articles and videos the Diplomacy community has created
 * Uses client-side routing via React-Router
-* * Uses an SVG map for scalability and interaction
+* Uses an SVG map for scalability and interaction
 * Is mobile and desktop friendly
 
 ## Technologies

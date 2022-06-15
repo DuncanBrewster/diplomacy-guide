@@ -28,8 +28,8 @@ const GeneralEngland = () => {
         England's early game will hinge on the diplomatic climate of the Western
         Triangle (consisting of itself, Germany, and France), and to a lesser
         extent the Northern Triangle (made up of England, Germany, and Russia).
-        Nwy is easily guaranteed in the first year, though Stp and Bel are also
-        fairly common first year acquisitions. Though landing in Scandinavia may
+        Nwy is easily guaranteed in the first year, though Bel is also
+        a fairly common first year acquisition. Though landing in Scandinavia may
         seem to determine England's route to expansion, it should not forgo Nwy
         lightly. Taking control of Bel is a great bonus, but more important is
         to ensure England is on the favorable end of the 2v1 that the west often

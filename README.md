@@ -19,6 +19,6 @@ A strategy guide for the board game Diplomacy.
 This project:
 
 - was built with React
-- is styled with SCSS
+- is styled with SASS
 - uses React Router
 - uses an SVG map 

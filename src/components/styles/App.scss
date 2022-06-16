@@ -111,9 +111,17 @@
 .creditContainer {
   display: flex;
   justify-content: center;
+  
+  @include mobile {
+    margin-top: -3px;
+  }
+  @include little-mobile {
+    margin-top: -5px;
+  }
+  
 
   #credit {
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     font-size: 14px;
     display: inline-block;
     position: relative;

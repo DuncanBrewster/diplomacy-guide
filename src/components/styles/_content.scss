@@ -99,13 +99,8 @@ h5 {
     color: $font;
   }
   
-  .author {
-    color: $link;
-  }
-  .author:hover {
-      color: $font;
-  }
 }
+
 
 //OPENING CONTENT
 
@@ -115,6 +110,7 @@ h5 {
 
 .opening {
   color: $link;
+  font-style: italic;
 }
 
 .opening {

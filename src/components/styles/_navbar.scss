@@ -21,19 +21,19 @@
         font-size: 18px;
       }
 
-      #icon {
-        width: 50px;
-        vertical-align: middle;
-        margin-right: 10px; 
+      // #icon {
+      //   width: 50px;
+      //   vertical-align: middle;
+      //   margin-right: 10px; 
         
-        @include mobile {
-          width: 35px;
-        }
+      //   @include mobile {
+      //     width: 35px;
+      //   }
 
-        @include little-mobile {
-          width: 25px;
-        }
-      }
+      //   @include little-mobile {
+      //     width: 25px;
+      //   }
+      // }
     }
 
   .link {

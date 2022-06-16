@@ -28,7 +28,7 @@ const TheBasics = () => {
           rel="noreferrer"
           style={{ textDecoration: "none" }}
         >
-          <p className="author">Source: Backstabbr</p>
+          <p className="author" id="howToPlayCredit">Instructions courtesy of Backstabbr</p>
         </a>
         <h5 id="winning">
           Winning

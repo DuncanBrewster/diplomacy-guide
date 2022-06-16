@@ -12,6 +12,18 @@ import ColorBoxTurkey from "./legendComponents/ColorBoxTurkey";
 
 const Legend = () => {
   return (
+    <>
+    <div className="creditContainer">
+     <a
+        href="https://www.backstabbr.com/"
+        target="_blank"
+        rel="noreferrer"
+        style={{ textDecoration: "none" }}
+      >
+        
+        <span className="author" id="credit">Map courtesy of Backstabbr</span>
+      </a>
+    </div>
     <div className="legend">
         <div className="legendItem" id="l-army">
           <Army />
@@ -50,6 +62,7 @@ const Legend = () => {
           Turkey 3
         </div>
       </div>
+      </>
   )
 }
 

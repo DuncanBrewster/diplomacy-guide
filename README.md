@@ -4,7 +4,7 @@
 # [Diplomacy Guide](https://www.diplomacyguide.com)
 
 A strategy guide for the board game Diplomacy. 
-k
+
 ## Features
 * Navigate through the Diplomacy app and learn how to play or discover new strategies, all in one place
 * Use the SVG map to render and visualize different openings 

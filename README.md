@@ -3,7 +3,7 @@
 
 # [Diplomacy Guide](https://www.diplomacyguide.com)
 
-A strategy guide for the board game Diplomacy. s
+A strategy guide for the board game Diplomacy.
 
 ## Features
 * Navigate through the Diplomacy app and learn how to play or discover new strategies, all in one place

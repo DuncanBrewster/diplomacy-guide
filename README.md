@@ -1,4 +1,4 @@
-CURRENTLY NOT PUBLIC BECAUSE I DID NOT RENEW MY DOMAIN SUBSCRIPTION
+NOTE: Currently not public because I did not renew my domain subscription
 ![diplo github photo](https://user-images.githubusercontent.com/87501964/173658948-48b4708e-0fdd-4d16-af2c-ec1d9d1bc37b.PNG)
 
 # [Diplomacy Guide](https://www.diplomacyguide.com)
